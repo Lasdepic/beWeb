@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <section class="wrapper">
         <header>
 
             <nav>
@@ -27,48 +27,54 @@
 
         <main>
 
-            <div class="main-image">
+            <section class="main-image">
                 <img class="img1" src="image/main.jpg" alt="image">
-                <p class="main-text">Organiser votre apprentissage sur mesure</p>
-                <button class="button--main" type="button">Par ici</button>
-            </div>
-            <div class="steps">
+                <p class="main-text">ORGANISER VOTRE<br> APPRENTISSAGE<br> <i class="mesure">SUR MESURE</i></p>
+                <button class="button-main" type="button">Par ici</button>
+            </section>
 
-                <img src="image/steps/stylo.png" alt="Stylo">
-                <h2>Planifier</h2>
-                <p>Confiez-vous vos rêves de réussite : Nous trouverons la formation qui vous comblera vos attentes
-                </p>
+            <section class="steps">
+                <div class="step">
+                    <img src="image/steps/stylo.png" alt="Stylo">
+                    <h2>Planifier</h2>
+                    <p>Confiez-vous vos rêves de réussite : Nous trouverons la formation qui vous comblera vos attentes
+                    </p>
+                </div>
+                <div class="step">
+                    <img src="image/steps/organiser.png" alt="Organiser">
+                    <h2>Organiser</h2>
+                    <p>Bènéfier de l'expertise de nos spécialistes de chaque parcours.<br>Ils vous accompagneront dans
+                        la réalisation de votre parcours</p>
+                </div>
+                <div class="step">
+                    <img src="image/steps/fusé.png" alt="Fusée">
+                    <h2>Développez</h2>
+                    <p>Nous nous chargerons de faire en sorte que vous deveniez développeur à travers des projets
+                        proches de la réalité.</p>
+                </div>
+            </section>
+ 
+            <section class="Caroussel">
+                <div class="car1">
+                    <img src="image/carouss1.jpg" alt="DWWM Niveau 5">
+                    <p>Devenez développeur web</p>
+                    <a href="#">Plus d'infos</a>
+                </div>
+                <div class="car2">
+                    <img src="image/carouss2.jpg" alt="CDA Niveau 6">
+                    <p>Devenez développeur web mobile</p>
+                    <a href="#">Plus d'infos</a>
+                </div>
+                <div class="car3">
+                    <img src="image/carouss3.jpg" alt="TSSR Niveau 5">
+                    <p>Devenez développeur web fullstack</p>
+                    <a href="#">Plus d'infos</a>
+                </div>
+                <button class="button-previous" id="btn-prev" type="button">➜</button>
+                <button class="button-next" id="btn-next" type="button">➜</button>
+            </section>
 
-                <img src="image/steps/organiser.png" alt="Organiser">
-                <h2>Organiser</h2>
-                <p>Bènéfier de l'expertise de nos spécialistes de charque parcours.<br>Ils vous accompragneront dans
-                    la
-                    réalisation de votre parcours</p>
-
-                <img src="image/steps/fusé.png" alt="Fusée">
-                <h2>Dévellopez</h2>
-                <p>Nous nous chargerons de faire en sorte que vous deveniez développeur à travers des projets
-                    proches de
-                    la réalité.</p>
-            </div>
-
-            <div class="possibility">
-                <ul class="possibility__list">
-                    <li class="item">
-                        <div class="content">Item 1</div>
-                    </li>
-                    <li class="item">
-                        <div class="content">Item 2</div>
-                    </li>
-                    <li class="item">
-                        <div class="content">Item 3</div>
-                    </li>
-                </ul>
-                <button class="button button--previous" type="button">➜</button>
-                <button class="button button--next" type="button">➜</button>
-            </div>
-
-            <div class="contact">
+            <section class="contact">
                 <h2>Contactez-nous</h2>
                 <p>Chez BeWeb, nous savons qu'apprendre est une aventure humaine mais également un engagement important
                     pour
@@ -82,12 +88,13 @@
                     <input type="email" id="email" name="email" required placeholder="Votre email">
                     <button type="submit">OK</button>
                 </form>
+            </section>
         </main>
         <footer>
             <image src="image/footer_beweb.png"></image>
             <p>© 2023 BeWeb. Tous droits réservés.</p>
         </footer>
-    </div>
+    </section>
 </body>
 
 </html>
